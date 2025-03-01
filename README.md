@@ -106,9 +106,9 @@ VMs in the            ```running
                       ```
 state.
 
-![alt text](image/vagrant-status.png)
+![alt text](Image/vagrant-status.png)
 
-![alt text](image/Oracle%20VM%20Machine-Manger.png)
+![alt text](Image/Oracle%20VM%20Machine-Manger.png)
 
 ### Step 4 - Test Internal Connectivity
 
@@ -118,7 +118,7 @@ state.
 vagrant ssh app
 ```
 
-![alt text](image/vagrant-ssh.png)
+![alt text](Image/vagrant-ssh.png)
 
 * Ping the Database VM:
 
@@ -128,7 +128,7 @@ ping -c 4 192.168.56.11
 
 You should see successful responses indicating internal connectivity.
 
-![alt text](image/ping-ping.png)
+![alt text](Image/ping-ping.png)
 
 * Exit the App VM:
 
@@ -161,7 +161,7 @@ sudo systemctl enable apache2
 sudo systemctl status apache2 
 ```
 
-![alt text](image/apache-status.png)
+![alt text](Image/apache-status.png)
 
 * Exit the App VM:
 
@@ -192,7 +192,7 @@ sudo systemctl enable mysql
 sudo systemctl status mysql 
 ```
 
-![alt text](image/status-mysql.png)
+![alt text](Image/status-mysql.png)
 
 * Exit the Database VM:
 
@@ -218,9 +218,9 @@ vagrant ssh db
 curl 192.168.56.10
 ```
 
-![alt text](image/curl-1.png)
+![alt text](Image/curl-1.png)
 
-![alt text](image/curl-2.png)
+![alt text](Image/curl-2.png)
 
 You should see the default Apache HTML page content.
 
